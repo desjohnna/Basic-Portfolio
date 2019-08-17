@@ -1,10 +1,10 @@
 /* @media screen and (max-width: 980px) { */
+
 text {
     color: #777777;
     font-size: 17px;
-  
-    
 }
+
 /* ----------------NAVBAR------------------------ */
 
 #navbar {
@@ -13,6 +13,7 @@ text {
     font-family: Arial, Helvetica, sans-serif;
     max-width: 980px;
     margin: auto;
+    padding: 0;
 }
 
 /* Leftside of navbar, DJ Gray */
@@ -39,7 +40,7 @@ text {
     text-align: right;
     color: #777777;
     text-align: center;
-    padding: 30px 10px;
+    padding: 30px 20px;
     text-decoration: none;
     font-size: 17px;
 }
@@ -80,6 +81,7 @@ text {
     padding: 10px;
     float: left;
     color: #777777;
+    
 }
 
 #submitBtn {
@@ -108,7 +110,7 @@ p {
     margin: 10px;
 }
 
-img {
+#profilePic {
     width: 100px;
     height: auto;
     /* float: left; */
@@ -139,3 +141,24 @@ hr {
     padding-bottom: 5px;
     border: 10px;
 }
+
+/* PICTURE CARDS CSS */
+
+.row {
+    display: flex;
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 15px;
+}
+
+img {
+   
+height: 100%;
+width: 100%;
+  }
+  
+ 
