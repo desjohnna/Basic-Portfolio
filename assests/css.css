@@ -1,5 +1,10 @@
 /* @media screen and (max-width: 980px) { */
-
+text {
+    color: #777777;
+    font-size: 17px;
+  
+    
+}
 /* ----------------NAVBAR------------------------ */
 
 #navbar {
@@ -21,7 +26,6 @@
     font-size: 25px;
     font-weight: bold;
     background-color: #4aaaa5;
-
 }
 
 /* Right side of navbar, LINKS */
@@ -44,7 +48,7 @@
 
 #navbar a:hover {
     background-color: #ddd;
-    color:cornflowerblue;
+    color: cornflowerblue;
 }
 
 /* ----------------END OF NAVBAR------------------------ */
@@ -72,11 +76,30 @@
     clear: both;
 }
 
-#profilePic, #pageText, .text {
+#profilePic, #pageText {
     padding: 10px;
-    /* float: left; */
+    float: left;
     color: #777777;
-    
+}
+
+#submitBtn {
+    width: initial;
+    background-color: #4aaaa5;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.text {
+    color: #777777;
+    width: 100%;
+    padding: 5px;
+    font-size: 14px;
+    margin: 5px 0px 10px 0px;
 }
 
 p {
